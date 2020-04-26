@@ -20,18 +20,20 @@ public static ExtentReports createInstance() {
 	htmlReporter.config().setEncoding("utf-8");
 	htmlReporter.config().setDocumentTitle("Automation Report");
 	htmlReporter.config().setReportName("Automation Test Results");
-	htmlReporter.config().setTheme(Theme.STANDARD);
+	htmlReporter.config().setTheme(Theme.DARK);
 	
 	extent = new ExtentReports();
 	extent.setSystemInfo("Organization", "Mani Automation Labs");
 	extent.setSystemInfo("Browser", "Chrome");
+	extent.setSystemInfo("Machine", "LocalMacine-Windows10");
 	extent.attachReporter(htmlReporter);
 	return extent;
 }
 public static String getReportName() 
 {
 	Date d = new Date();
-	String fileName = "AutomationReport_"+d.toString().replace(":", "_")+".html";
+	String fileName = "AutomationReport.html";
+	//_+d.toString().replace(":", "_")+".html"
 	return fileName;
 }
 }

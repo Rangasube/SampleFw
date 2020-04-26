@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="90138" started-at="2020-04-25T00:40:33 IST" finished-at="2020-04-25T00:42:03 IST">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="67590" started-at="2020-04-26T17:37:57 IST" finished-at="2020-04-26T17:39:04 IST">
     <groups>
     </groups>
-    <test name="CRMPRO Test Cases1" duration-ms="90138" started-at="2020-04-25T00:40:33 IST" finished-at="2020-04-25T00:42:03 IST">
+    <test name="CRMPRO Test Cases1" duration-ms="67590" started-at="2020-04-26T17:37:57 IST" finished-at="2020-04-26T17:39:04 IST">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="setUp" is-config="true" duration-ms="20018" started-at="2020-04-25T00:40:33 IST" finished-at="2020-04-25T00:40:53 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="setUp" is-config="true" duration-ms="20299" started-at="2020-04-26T17:37:57 IST" finished-at="2020-04-26T17:38:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="loginPageTitleTest" duration-ms="300" started-at="2020-04-25T00:40:54 IST" description="verifying login page title test" finished-at="2020-04-25T00:40:54 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="loginPageTitleTest" duration-ms="1156" started-at="2020-04-26T17:38:18 IST" description="verifying login page title test" finished-at="2020-04-26T17:38:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="tearDown" is-config="true" duration-ms="1415" started-at="2020-04-25T00:40:54 IST" finished-at="2020-04-25T00:40:56 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="tearDown" is-config="true" duration-ms="1456" started-at="2020-04-26T17:38:19 IST" finished-at="2020-04-26T17:38:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="setUp" is-config="true" duration-ms="21912" started-at="2020-04-25T00:40:56 IST" finished-at="2020-04-25T00:41:18 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="setUp" is-config="true" duration-ms="17487" started-at="2020-04-26T17:38:21 IST" finished-at="2020-04-26T17:38:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="crmLogoImageTest" duration-ms="652" started-at="2020-04-25T00:41:18 IST" finished-at="2020-04-25T00:41:18 IST">
+        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="crmLogoImageTest" duration-ms="418" started-at="2020-04-26T17:38:38 IST" finished-at="2020-04-26T17:38:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmLogoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="tearDown" is-config="true" duration-ms="1323" started-at="2020-04-25T00:41:18 IST" finished-at="2020-04-25T00:41:20 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="tearDown" is-config="true" duration-ms="782" started-at="2020-04-26T17:38:39 IST" finished-at="2020-04-26T17:38:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="setUp" is-config="true" duration-ms="24174" started-at="2020-04-25T00:41:20 IST" finished-at="2020-04-25T00:41:44 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="setUp" is-config="true" duration-ms="17165" started-at="2020-04-26T17:38:39 IST" finished-at="2020-04-26T17:38:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="loginTest" duration-ms="17513" started-at="2020-04-25T00:41:44 IST" finished-at="2020-04-25T00:42:01 IST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="loginTest" duration-ms="6707" started-at="2020-04-26T17:38:57 IST" finished-at="2020-04-26T17:39:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4c432866]" name="tearDown" is-config="true" duration-ms="2101" started-at="2020-04-25T00:42:01 IST" finished-at="2020-04-25T00:42:03 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@130a0f66]" name="tearDown" is-config="true" duration-ms="1104" started-at="2020-04-26T17:39:03 IST" finished-at="2020-04-26T17:39:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
