@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.crm.qa.ExtentReportListener.ExtentListener"/>
   </listeners>
-  <test thread-count="5" name="CRMPRO Test Cases5(failed)">
+  <test thread-count="5" name="CRMPRO Test Cases1(failed)">
     <classes>
       <class name="com.crm.qa.testcases.TestClassUsingListeners">
         <methods>
@@ -15,5 +15,5 @@
         </methods>
       </class> <!-- com.crm.qa.testcases.TestClassUsingListeners -->
     </classes>
-  </test> <!-- CRMPRO Test Cases5(failed) -->
+  </test> <!-- CRMPRO Test Cases1(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="0" total="6" passed="4">
+<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="89594" started-at="2020-04-22T16:52:56 IST" finished-at="2020-04-22T16:54:26 IST">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="25210" started-at="2020-04-24T23:28:04 IST" finished-at="2020-04-24T23:28:30 IST">
     <groups>
     </groups>
-    <test name="CRMPRO Test Cases5" duration-ms="22296" started-at="2020-04-22T16:52:56 IST" finished-at="2020-04-22T16:53:18 IST">
+    <test name="CRMPRO Test Cases1" duration-ms="25210" started-at="2020-04-24T23:28:04 IST" finished-at="2020-04-24T23:28:30 IST">
       <class name="com.crm.qa.testcases.TestClassUsingListeners">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@146044d7]" name="beforeClass" is-config="true" duration-ms="20102" started-at="2020-04-22T16:52:56 IST" finished-at="2020-04-22T16:53:16 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@5e0e82ae]" name="beforeClass" is-config="true" duration-ms="23144" started-at="2020-04-24T23:28:04 IST" finished-at="2020-04-24T23:28:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="testFailed()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@146044d7]" name="testFailed" duration-ms="25" started-at="2020-04-22T16:53:16 IST" finished-at="2020-04-22T16:53:16 IST">
+        <test-method status="FAIL" signature="testFailed()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@5e0e82ae]" name="testFailed" duration-ms="490" started-at="2020-04-24T23:28:28 IST" finished-at="2020-04-24T23:28:28 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Executing Failed Test Method]]>
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailed -->
-        <test-method status="SKIP" signature="testSkipped()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@146044d7]" name="testSkipped" duration-ms="8" started-at="2020-04-22T16:53:17 IST" finished-at="2020-04-22T16:53:17 IST">
+        <test-method status="SKIP" signature="testSkipped()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@5e0e82ae]" name="testSkipped" duration-ms="8" started-at="2020-04-24T23:28:29 IST" finished-at="2020-04-24T23:28:29 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Executing Skipped Test Method]]>
@@ -96,55 +96,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSkipped -->
-        <test-method status="PASS" signature="testSuccessful()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@146044d7]" name="testSuccessful" duration-ms="0" started-at="2020-04-22T16:53:17 IST" finished-at="2020-04-22T16:53:17 IST">
+        <test-method status="PASS" signature="testSuccessful()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@5e0e82ae]" name="testSuccessful" duration-ms="16" started-at="2020-04-24T23:28:29 IST" finished-at="2020-04-24T23:28:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessful -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@146044d7]" name="afterClass" is-config="true" duration-ms="888" started-at="2020-04-22T16:53:17 IST" finished-at="2020-04-22T16:53:18 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.crm.qa.testcases.TestClassUsingListeners@5e0e82ae]" name="afterClass" is-config="true" duration-ms="774" started-at="2020-04-24T23:28:29 IST" finished-at="2020-04-24T23:28:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.crm.qa.testcases.TestClassUsingListeners -->
-    </test> <!-- CRMPRO Test Cases5 -->
-    <test name="CRMPRO Test Cases1" duration-ms="66689" started-at="2020-04-22T16:53:19 IST" finished-at="2020-04-22T16:54:26 IST">
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="setUp" is-config="true" duration-ms="15178" started-at="2020-04-22T16:53:19 IST" finished-at="2020-04-22T16:53:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="loginPageTitleTest" duration-ms="12" started-at="2020-04-22T16:53:34 IST" finished-at="2020-04-22T16:53:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearOff()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="tearOff" is-config="true" duration-ms="781" started-at="2020-04-22T16:53:34 IST" finished-at="2020-04-22T16:53:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearOff -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="setUp" is-config="true" duration-ms="24029" started-at="2020-04-22T16:53:35 IST" finished-at="2020-04-22T16:53:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="crmLogoImageTest" duration-ms="160" started-at="2020-04-22T16:53:59 IST" finished-at="2020-04-22T16:53:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crmLogoImageTest -->
-        <test-method status="PASS" signature="tearOff()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="tearOff" is-config="true" duration-ms="747" started-at="2020-04-22T16:53:59 IST" finished-at="2020-04-22T16:54:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearOff -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="setUp" is-config="true" duration-ms="15841" started-at="2020-04-22T16:54:00 IST" finished-at="2020-04-22T16:54:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="loginTest" duration-ms="9202" started-at="2020-04-22T16:54:16 IST" finished-at="2020-04-22T16:54:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearOff()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1dd92fe2]" name="tearOff" is-config="true" duration-ms="719" started-at="2020-04-22T16:54:25 IST" finished-at="2020-04-22T16:54:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearOff -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </test> <!-- CRMPRO Test Cases1 -->
   </suite> <!-- FREE CRM Application Test Automation Test Suite -->
 </testng-results>

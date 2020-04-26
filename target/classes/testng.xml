@@ -6,11 +6,7 @@
 		<listener
 			class-name="com.crm.qa.ExtentReportListener.ExtentListener"></listener>
 	</listeners>
-	<test name="CRMPRO Test Cases5">
-		<classes>
-			<class name="com.crm.qa.testcases.TestClassUsingListeners"></class>
-		</classes>
-	</test>
+	
 	<test name="CRMPRO Test Cases1">
 		<classes>
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>

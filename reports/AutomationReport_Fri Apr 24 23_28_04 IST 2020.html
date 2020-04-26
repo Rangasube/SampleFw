@@ -44,7 +44,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Apr 22, 2020 04:34:02 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Apr 24, 2020 11:28:04 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -60,6 +60,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
@@ -103,10 +104,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>2</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>4</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>1</span> others
                 </div>
             </div>
         </div>
@@ -124,17 +125,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  skip' status='skip' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>com.crm.qa.testcases.TestClassUsingListeners : : testFailed</span>
-						<span class='test-time'>Apr 22, 2020 04:34:03 PM</span>
-						<span class='test-status right skip'>skip</span>
+						<span class='test-time'>Apr 24, 2020 11:28:28 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 22, 2020 04:34:03 PM</span>
-	<span class='label end-time'>Apr 22, 2020 04:34:03 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+8ms</span>
+	<span class='label start-time'>Apr 24, 2020 11:28:28 PM</span>
+	<span class='label end-time'>Apr 24, 2020 11:28:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+651ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -146,11 +147,27 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='skip'>
-				<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-				<td class='timestamp'>4:34:03 PM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:28:28 PM</td>
 				<td class='step-details'>
-						<span class='badge white-text blue'><b>Test Method testFailed Skipped</b></span>
+						<details><summary><b><font color-red>Exception Occured, click to see details:</font></b></summary>[org.testng.Assert.fail(Assert.java:97)<br> com.crm.qa.testcases.TestClassUsingListeners.testFailed(TestClassUsingListeners.java:35)<br> sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.lang.reflect.Method.invoke(Method.java:498)<br> org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br> org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)<br> org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)<br> org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br> org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)<br> org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)<br> org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br> org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.util.ArrayList.forEach(ArrayList.java:1257)<br> org.testng.TestRunner.privateRun(TestRunner.java:770)<br> org.testng.TestRunner.run(TestRunner.java:591)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:402)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)<br> org.testng.SuiteRunner.run(SuiteRunner.java:304)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1102)<br> org.testng.TestNG.runSuites(TestNG.java:1032)<br> org.testng.TestNG.run(TestNG.java:1000)<br> org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br> org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br> org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]</details>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:28:28 PM</td>
+				<td class='step-details'>
+						<b><font color-red>Screeshots of Failure</font></b>
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Sai Sharan\eclipse-workspace\SampleFw/screenshots/testFailed_Fri Apr 24 23_28_28 IST 2020.png' src='C:\Users\Sai Sharan\eclipse-workspace\SampleFw/screenshots/testFailed_Fri Apr 24 23_28_28 IST 2020.png' data-src='C:\Users\Sai Sharan\eclipse-workspace\SampleFw/screenshots/testFailed_Fri Apr 24 23_28_28 IST 2020.png'>
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:28:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'><b>Test Method testFailed Failed</b></span>
 					
 				</td>
 			</tr>
@@ -162,14 +179,14 @@
 				<li class='test displayed active  skip' status='skip' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>com.crm.qa.testcases.TestClassUsingListeners : : testSkipped</span>
-						<span class='test-time'>Apr 22, 2020 04:34:03 PM</span>
+						<span class='test-time'>Apr 24, 2020 11:28:29 PM</span>
 						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 22, 2020 04:34:03 PM</span>
-	<span class='label end-time'>Apr 22, 2020 04:34:03 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+	<span class='label start-time'>Apr 24, 2020 11:28:29 PM</span>
+	<span class='label end-time'>Apr 24, 2020 11:28:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+20ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -183,7 +200,7 @@
 		<tbody>
 			<tr class='log' status='skip'>
 				<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-				<td class='timestamp'>4:34:03 PM</td>
+				<td class='timestamp'>11:28:29 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text blue'><b>Test Method testSkipped Skipped</b></span>
 					
@@ -194,52 +211,17 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  skip' status='skip' bdd='false' test-id='3'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>com.crm.qa.testcases.TestClassUsingListeners : : testSuccessful</span>
-						<span class='test-time'>Apr 22, 2020 04:34:03 PM</span>
-						<span class='test-status right skip'>skip</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Apr 22, 2020 04:34:03 PM</span>
-	<span class='label end-time'>Apr 22, 2020 04:34:03 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+4ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='skip'>
-				<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-				<td class='timestamp'>4:34:03 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text blue'><b>Test Method testSuccessful Skipped</b></span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
-					<div class='test-heading'>
-						<span class='test-name'>com.crm.qa.testcases.LoginPageTest : : loginPageTitleTest</span>
-						<span class='test-time'>Apr 22, 2020 04:34:43 PM</span>
+						<span class='test-time'>Apr 24, 2020 11:28:29 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 22, 2020 04:34:43 PM</span>
-	<span class='label end-time'>Apr 22, 2020 04:34:43 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+36ms</span>
+	<span class='label start-time'>Apr 24, 2020 11:28:29 PM</span>
+	<span class='label end-time'>Apr 24, 2020 11:28:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+7ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -253,79 +235,9 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:34:43 PM</td>
+				<td class='timestamp'>11:28:29 PM</td>
 				<td class='step-details'>
-						<span class='badge white-text green'><b>Test Method loginPageTitleTest Successful</b></span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>com.crm.qa.testcases.LoginPageTest : : crmLogoImageTest</span>
-						<span class='test-time'>Apr 22, 2020 04:35:13 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Apr 22, 2020 04:35:13 PM</span>
-	<span class='label end-time'>Apr 22, 2020 04:35:14 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+684ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:35:14 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text green'><b>Test Method crmLogoImageTest Successful</b></span>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  skip' status='skip' bdd='false' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>com.crm.qa.testcases.LoginPageTest : : loginTest</span>
-						<span class='test-time'>Apr 22, 2020 04:35:57 PM</span>
-						<span class='test-status right skip'>skip</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Apr 22, 2020 04:35:57 PM</span>
-	<span class='label end-time'>Apr 22, 2020 04:35:57 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='skip'>
-				<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-				<td class='timestamp'>4:35:57 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text blue'><b>Test Method loginTest Skipped</b></span>
+						<span class='badge white-text green'><b>Test Method testSuccessful Successful</b></span>
 					
 				</td>
 			</tr>
@@ -362,7 +274,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -374,19 +286,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 22, 2020 04:34:02 PM</div>
+					<div class='panel-lead'>Apr 24, 2020 11:28:04 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 22, 2020 04:35:57 PM</div>
+			 		<div class='panel-lead'>Apr 24, 2020 11:28:30 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 54s+995ms</div>
+					<div class='panel-lead'>0h 0m 25s+875ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -417,14 +329,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 6,
-				passParent: 2,
-				failParent: 0,
+                parentCount: 3,
+				passParent: 1,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 4,
-				exceptionsParent: 4,
+				skipParent: 1,
+				exceptionsParent: 2,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -449,7 +361,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "com.crm.qa.testcases.TestClassUsingListeners : : testFailed":0.008,"com.crm.qa.testcases.TestClassUsingListeners : : testSkipped":0,"com.crm.qa.testcases.TestClassUsingListeners : : testSuccessful":0.004,"com.crm.qa.testcases.LoginPageTest : : loginPageTitleTest":0.036,"com.crm.qa.testcases.LoginPageTest : : crmLogoImageTest":0.684,"com.crm.qa.testcases.LoginPageTest : : loginTest":0
+			        "com.crm.qa.testcases.TestClassUsingListeners : : testFailed":0.651,"com.crm.qa.testcases.TestClassUsingListeners : : testSkipped":0.02,"com.crm.qa.testcases.TestClassUsingListeners : : testSuccessful":0.007
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
