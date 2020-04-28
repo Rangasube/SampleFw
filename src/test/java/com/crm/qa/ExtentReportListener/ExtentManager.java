@@ -32,8 +32,8 @@ public static ExtentReports createInstance() {
 public static String getReportName() 
 {
 	Date d = new Date();
-	String fileName = "AutomationReport.html";
-	//_+d.toString().replace(":", "_")+".html"
+	String fileName = "AutomationReport_"+"d.toString().replace(\":\", \"_\")+\".html";
+	//
 	return fileName;
 }
 }

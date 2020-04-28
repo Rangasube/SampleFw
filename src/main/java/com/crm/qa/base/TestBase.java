@@ -54,6 +54,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 
 		if(browserName.equals("Chrome")) {
+			System.setProperty("webdriver.chrome.silentOutput", "true"); //suppresses chrome driver warnings in console output
 			System.setProperty("webdriver.chrome.driver","c:\\chromedriver.exe");
 			logInfo("Launching Chrome Browser");
 			driver = new ChromeDriver();
